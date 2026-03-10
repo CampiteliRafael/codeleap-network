@@ -344,10 +344,8 @@ npm run build
 ## 📧 Contact
 
 For questions about the challenge:
-**Email:** vini.garcia@codeleap.co.uk
+**Email:** campitelir8@gmail.com
 
 ---
 
 **Developed with ❤️ for the CodeLeap challenge**
-
-🤖 Generated with Claude Code
