@@ -3,7 +3,8 @@
 Uma aplicação de rede social completa construída com React, TypeScript, React Query e Framer Motion.
 
 ## 🚀 Live Demo
-**Deploy:** [Em breve - adicionar URL após deploy]
+**Deploy:** [https://codeleap-network-sandy.vercel.app](https://codeleap-network-sandy.vercel.app)
+**GitHub:** [https://github.com/CampiteliRafael/codeleap-network](https://github.com/CampiteliRafael/codeleap-network)
 
 ## 📋 Sobre o Projeto
 
