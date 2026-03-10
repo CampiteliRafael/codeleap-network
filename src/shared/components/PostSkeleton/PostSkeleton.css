@@ -1,0 +1,65 @@
+.post-skeleton {
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  overflow: hidden;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+.skeleton-header {
+  background-color: #e0e0e0;
+  padding: 24px;
+}
+
+.skeleton-title {
+  height: 26px;
+  background-color: #c0c0c0;
+  border-radius: 4px;
+  width: 60%;
+}
+
+.skeleton-meta {
+  padding: 16px 24px 8px;
+  display: flex;
+  gap: 12px;
+}
+
+.skeleton-author,
+.skeleton-date {
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+}
+
+.skeleton-author {
+  width: 120px;
+}
+
+.skeleton-date {
+  width: 100px;
+}
+
+.skeleton-content {
+  padding: 0 24px 24px;
+}
+
+.skeleton-line {
+  height: 16px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.skeleton-line.short {
+  width: 70%;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+}

@@ -1,0 +1,140 @@
+.post-card {
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  overflow: hidden;
+}
+
+.post-header {
+  background-color: #7695EC;
+  color: #fff;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.post-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.icon-button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s;
+}
+
+.icon-button:hover {
+  opacity: 0.7;
+}
+
+.post-meta {
+  padding: 16px 24px 8px;
+  display: flex;
+  gap: 8px;
+  font-size: 18px;
+  color: #777;
+}
+
+.post-author {
+  font-weight: 700;
+  color: #000;
+}
+
+.post-date {
+  color: #777;
+}
+
+.post-content {
+  padding: 0 24px 16px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin: 0;
+}
+
+.post-footer {
+  padding: 0 24px 24px;
+  display: flex;
+  gap: 16px;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 16px;
+  margin: 0 24px 24px;
+}
+
+.like-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: none;
+  color: #777;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: all 0.2s;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.like-button:hover {
+  color: #FF6B6B;
+  background-color: rgba(255, 107, 107, 0.1);
+}
+
+.like-button.liked {
+  color: #FF6B6B;
+}
+
+.like-button svg {
+  transition: transform 0.2s;
+}
+
+.like-button:active svg {
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .post-header {
+    padding: 16px;
+  }
+
+  .post-title {
+    font-size: 18px;
+  }
+
+  .post-meta {
+    padding: 12px 16px 8px;
+    font-size: 16px;
+  }
+
+  .post-content {
+    padding: 0 16px 12px;
+    font-size: 14px;
+  }
+
+  .post-footer {
+    margin: 0 16px 16px;
+    padding: 12px 0 0;
+  }
+
+  .icon-button {
+    padding: 8px;
+  }
+}

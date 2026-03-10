@@ -1,0 +1,87 @@
+.signup-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #DDDDDD;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.signup-modal {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 16px;
+  padding: 24px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 24px 0;
+  color: #000;
+}
+
+.signup-label {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 8px;
+  color: #000;
+}
+
+.signup-input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #777;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.signup-input:focus {
+  outline: none;
+  border-color: #000;
+}
+
+.signup-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #7695EC;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.signup-button:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.signup-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .signup-modal {
+    max-width: 90%;
+    padding: 20px;
+  }
+
+  .signup-title {
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+}

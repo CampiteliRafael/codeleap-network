@@ -1,0 +1,58 @@
+.edit-modal {
+  max-width: 660px;
+}
+
+.edit-modal .form-group {
+  margin-bottom: 16px;
+}
+
+.edit-modal .form-group label {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 8px;
+  color: #000;
+}
+
+.edit-modal .form-group input,
+.edit-modal .form-group textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #777;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.edit-modal .form-group input:focus,
+.edit-modal .form-group textarea:focus {
+  outline: none;
+  border-color: #000;
+}
+
+.edit-modal .form-group textarea {
+  resize: vertical;
+  min-height: 74px;
+}
+
+.btn-save {
+  padding: 8px 32px;
+  background-color: #47B960;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.btn-save:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.btn-save:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
