@@ -1,145 +1,145 @@
 # CodeLeap Network - Frontend Challenge
 
-Uma aplicação de rede social completa construída com React, TypeScript, React Query e Framer Motion.
+A complete social network application built with React, TypeScript, React Query, and Framer Motion.
 
 ## 🚀 Live Demo
 **Deploy:** [https://codeleap-network-sandy.vercel.app](https://codeleap-network-sandy.vercel.app)
 **GitHub:** [https://github.com/CampiteliRafael/codeleap-network](https://github.com/CampiteliRafael/codeleap-network)
 
-## 📋 Sobre o Projeto
+## 📋 About the Project
 
-Esta é uma solução completa para o desafio técnico da CodeLeap, implementando uma aplicação CRUD de posts com múltiplas funcionalidades avançadas e design responsivo.
+This is a complete solution for the CodeLeap technical challenge, implementing a CRUD posts application with multiple advanced features and responsive design.
 
-## ✨ Funcionalidades Implementadas
+## ✨ Implemented Features
 
-### Core Features (Requisitos Obrigatórios)
-- ✅ Sistema de signup/login com username
-- ✅ Criar novos posts (título + conteúdo)
-- ✅ Listar posts ordenados por mais recente
-- ✅ Editar posts próprios
-- ✅ Deletar posts próprios
-- ✅ Validação de formulários (botões desabilitados quando vazios)
-- ✅ Modais de confirmação
-- ✅ Design fiel ao Figma
+### Core Features (Required)
+- ✅ Signup/login system with username
+- ✅ Create new posts (title + content)
+- ✅ List posts sorted by most recent
+- ✅ Edit own posts
+- ✅ Delete own posts
+- ✅ Form validation (disabled buttons when empty)
+- ✅ Confirmation modals
+- ✅ Figma-faithful design
 
-### Bonus Features (Implementadas)
-- 🎯 **Login/Logout Persistente** - localStorage para manter sessão
-- 🔍 **Busca e Filtros** - pesquisar por título, conteúdo ou autor
-- 📊 **Ordenação** - ordenar por mais recente ou mais antigo
-- ❤️ **Sistema de Likes** - curtir posts (fake API com localStorage)
-- 💫 **Animações Suaves** - transições com Framer Motion
-- 📱 **Design Responsivo** - otimizado para mobile, tablet e desktop
-- ⏳ **Loading States** - skeleton screens e spinners
-- 🎨 **Empty State** - mensagem amigável quando não há posts
-- 🎭 **Hover Effects** - interações visuais polidas
+### Bonus Features (Implemented)
+- 🎯 **Persistent Login/Logout** - localStorage for session persistence
+- 🔍 **Search and Filters** - search by title, content, or author
+- 📊 **Sorting** - sort by newest or oldest
+- ❤️ **Like System** - like posts (fake API with localStorage)
+- 💫 **Smooth Animations** - transitions with Framer Motion
+- 📱 **Responsive Design** - optimized for mobile, tablet, and desktop
+- ⏳ **Loading States** - skeleton screens and spinners
+- 🎨 **Empty State** - friendly message when no posts exist
+- 🎭 **Hover Effects** - polished visual interactions
 
-## 🛠️ Tecnologias
+## 🛠️ Technologies
 
 ### Core
-- **React 19** - Framework principal
-- **TypeScript** - Tipagem estática
-- **Vite** - Build tool rápido
-- **React Query (TanStack Query)** - Gerenciamento de estado servidor
-- **Axios** - Cliente HTTP
-- **Framer Motion** - Animações
-- **CSS3** - Estilização customizada
+- **React 19** - Main framework
+- **TypeScript** - Static typing
+- **Vite** - Fast build tool
+- **React Query (TanStack Query)** - Server state management
+- **Axios** - HTTP client
+- **Framer Motion** - Animations
+- **CSS3** - Custom styling
 
-### Testes e Qualidade
+### Testing and Quality
 - **Vitest** - Test runner
-- **React Testing Library** - Testes de componentes
+- **React Testing Library** - Component testing
 - **MSW** - Mock Service Worker
 - **ESLint** - Linting
 
 ### DevOps
-- **Docker** - Containerização
+- **Docker** - Containerization
 - **GitHub Actions** - CI/CD
-- **Vercel** - Deploy automático
+- **Vercel** - Automatic deployment
 
-## 📦 Como Executar Localmente
+## 📦 Running Locally
 
-### Pré-requisitos
+### Prerequisites
 - Node.js 20+
-- npm ou yarn
-- Docker (opcional)
+- npm or yarn
+- Docker (optional)
 
-### Opção 1: Instalação Padrão
+### Option 1: Standard Installation
 
 ```bash
-# Clone o repositório
-git clone [seu-repositorio]
+# Clone the repository
+git clone https://github.com/CampiteliRafael/codeleap-network.git
 
-# Entre no diretório
+# Enter the directory
 cd codeleap-network
 
-# Instale as dependências
+# Install dependencies
 npm install
 
-# Execute em desenvolvimento
+# Run in development
 npm run dev
 ```
 
-A aplicação estará disponível em `http://localhost:5173`
+The application will be available at `http://localhost:5173`
 
-### Opção 2: Com Docker (Recomendado)
+### Option 2: With Docker (Recommended)
 
 ```bash
-# Clone o repositório
-git clone [seu-repositorio]
+# Clone the repository
+git clone https://github.com/CampiteliRafael/codeleap-network.git
 
-# Entre no diretório
+# Enter the directory
 cd codeleap-network
 
-# Execute com Docker Compose
+# Run with Docker Compose
 docker-compose up
 
-# Ou em background
+# Or in background
 docker-compose up -d
 
-# Para parar
+# To stop
 docker-compose down
 ```
 
-A aplicação estará disponível em `http://localhost:5173`
+The application will be available at `http://localhost:5173`
 
-**Vantagens do Docker:**
-- ✅ Ambiente isolado e consistente
-- ✅ Não precisa instalar dependências localmente
-- ✅ Hot reload funciona normalmente
-- ✅ Fácil de compartilhar entre equipes
+**Docker Benefits:**
+- ✅ Isolated and consistent environment
+- ✅ No need to install dependencies locally
+- ✅ Hot reload works normally
+- ✅ Easy to share between teams
 
-### Build para Produção
+### Production Build
 
 ```bash
-# Criar build otimizado
+# Create optimized build
 npm run build
 
-# Preview do build
+# Preview the build
 npm run preview
 ```
 
-### Testes
+### Testing
 
 ```bash
-# Rodar testes em watch mode
+# Run tests in watch mode
 npm run test
 
-# Rodar testes uma vez
+# Run tests once
 npm run test:run
 
-# Rodar testes com UI interativa
+# Run tests with interactive UI
 npm run test:ui
 
-# Rodar testes com coverage
+# Run tests with coverage
 npm run test:coverage
 
-# Rodar testes no CI (com coverage)
+# Run tests in CI (with coverage)
 npm run test:ci
 ```
 
-### Lint e Type Check
+### Lint and Type Check
 
 ```bash
-# Verificar linting
+# Check linting
 npm run lint
 
 # Build TypeScript (type check)
@@ -148,206 +148,206 @@ npm run build
 
 ## 🌐 API
 
-A aplicação se integra com a API de teste da CodeLeap:
+The application integrates with CodeLeap's test API:
 
 **Base URL:** `https://dev.codeleap.co.uk/careers/`
 
-### Endpoints Utilizados
-- `GET /` - Lista todos os posts
-- `POST /` - Cria um novo post
-- `PATCH /:id/` - Atualiza um post
-- `DELETE /:id/` - Deleta um post
+### Endpoints Used
+- `GET /` - List all posts
+- `POST /` - Create a new post
+- `PATCH /:id/` - Update a post
+- `DELETE /:id/` - Delete a post
 
-## 📁 Estrutura do Projeto
+## 📁 Project Structure
 
-Organizado por **features** para melhor escalabilidade:
+Organized by **features** for better scalability:
 
 ```
 src/
-├── features/                    # Features organizadas por domínio
-│   ├── auth/                   # Feature de autenticação
+├── features/                    # Features organized by domain
+│   ├── auth/                   # Authentication feature
 │   │   └── components/
-│   │       └── SignupModal/    # Modal de login
-│   ├── posts/                  # Feature de posts
+│   │       └── SignupModal/    # Login modal
+│   ├── posts/                  # Posts feature
 │   │   ├── components/
-│   │   │   ├── CreatePost/     # Criar post
-│   │   │   ├── PostCard/       # Card de post
-│   │   │   ├── EditModal/      # Editar post
-│   │   │   ├── DeleteModal/    # Deletar post
-│   │   │   └── FilterBar/      # Busca e filtros
+│   │   │   ├── CreatePost/     # Create post
+│   │   │   ├── PostCard/       # Post card
+│   │   │   ├── EditModal/      # Edit post
+│   │   │   ├── DeleteModal/    # Delete post
+│   │   │   └── FilterBar/      # Search and filters
 │   │   └── hooks/
-│   │       └── usePosts.ts     # Hook de posts
-│   └── likes/                  # Feature de likes
+│   │       └── usePosts.ts     # Posts hook
+│   └── likes/                  # Likes feature
 │       └── hooks/
-│           └── useLikes.ts     # Hook de likes
-├── shared/                      # Código compartilhado
-│   ├── components/             # Componentes reutilizáveis
-│   │   ├── EmptyState/         # Estado vazio
+│           └── useLikes.ts     # Likes hook
+├── shared/                      # Shared code
+│   ├── components/             # Reusable components
+│   │   ├── EmptyState/         # Empty state
 │   │   └── PostSkeleton/       # Loading skeleton
-│   ├── services/               # Serviços
-│   │   └── api.ts              # Cliente Axios
+│   ├── services/               # Services
+│   │   └── api.ts              # Axios client
 │   └── types/                  # TypeScript types
-│       └── index.ts            # Definições globais
-├── App.tsx                      # Componente raiz
-├── App.css                      # Estilos globais
+│       └── index.ts            # Global definitions
+├── App.tsx                      # Root component
+├── App.css                      # Global styles
 └── main.tsx                     # Entry point
 ```
 
-### Por que esta estrutura?
+### Why This Structure?
 
-- **Escalabilidade**: Fácil adicionar novas features
-- **Manutenibilidade**: Código organizado por domínio
-- **Reutilização**: Componentes compartilhados em `/shared`
-- **Clareza**: Estrutura auto-explicativa
+- **Scalability**: Easy to add new features
+- **Maintainability**: Code organized by domain
+- **Reusability**: Shared components in `/shared`
+- **Clarity**: Self-explanatory structure
 
-## 🎨 Design e UX
+## 🎨 Design and UX
 
-### Cores Principais
-- **Azul Primary:** #7695EC (Header, botões principais)
-- **Vermelho Like:** #FF6B6B (Botão de curtir)
-- **Verde Success:** #47B960 (Botão salvar)
-- **Cinza Background:** #DDDDDD
-- **Branco Cards:** #FFFFFF
+### Main Colors
+- **Primary Blue:** #7695EC (Header, main buttons)
+- **Like Red:** #FF6B6B (Like button)
+- **Success Green:** #47B960 (Save button)
+- **Background Gray:** #DDDDDD
+- **Card White:** #FFFFFF
 
-### Responsividade
-- **Desktop:** >768px - Layout completo
-- **Tablet:** 768px - Ajustes de espaçamento
-- **Mobile:** <768px - Layout otimizado vertical
+### Responsiveness
+- **Desktop:** >768px - Full layout
+- **Tablet:** 768px - Spacing adjustments
+- **Mobile:** <768px - Optimized vertical layout
 
-### Animações
-- Fade in/out nos modais
-- Slide up nos posts novos
-- Scale nos botões clicados
-- Hover effects suaves
+### Animations
+- Fade in/out on modals
+- Slide up on new posts
+- Scale on clicked buttons
+- Smooth hover effects
 
-## 🔑 Funcionalidades Detalhadas
+## 🔑 Detailed Features
 
-### Sistema de Likes (Fake Frontend)
-- Contador de likes por post
-- Visual feedback (coração preenchido)
-- Persistência no localStorage
-- Animação ao clicar
+### Like System (Fake Frontend)
+- Like counter per post
+- Visual feedback (filled heart)
+- localStorage persistence
+- Click animation
 
-### Busca e Filtros
-- Busca em tempo real
-- Filtrar por título, conteúdo ou autor
-- Ordenação por data (mais recente/mais antigo)
-- Clear button para limpar busca
+### Search and Filters
+- Real-time search
+- Filter by title, content, or author
+- Sort by date (newest/oldest)
+- Clear button to reset search
 
 ### Loading States
-- Skeleton screens enquanto carrega
-- Spinners em botões durante operações
-- Estados de loading específicos (criar, editar, deletar)
+- Skeleton screens while loading
+- Spinners on buttons during operations
+- Specific loading states (create, edit, delete)
 
-### Persistência
-- Username salvo no localStorage
-- Likes salvos localmente
-- Auto-login ao recarregar página
-- Botão de logout para limpar sessão
+### Persistence
+- Username saved in localStorage
+- Likes saved locally
+- Auto-login on page reload
+- Logout button to clear session
 
-## 📝 Notas Técnicas
+## 📝 Technical Notes
 
-- **React Query** gerencia cache e sincronização automática
-- **Refetch interval** de 10 segundos para ver novos posts
-- **Optimistic updates** para melhor UX
-- **Error handling** em todas as operações
-- **TypeScript strict mode** para segurança de tipos
+- **React Query** manages cache and automatic synchronization
+- **Refetch interval** of 10 seconds to see new posts
+- **Optimistic updates** for better UX
+- **Error handling** in all operations
+- **TypeScript strict mode** for type safety
 
-## 🧪 Testes
+## 🧪 Testing
 
-O projeto possui uma suíte completa de testes com **alta cobertura**:
+The project has a complete test suite with **high coverage**:
 
-### Tipos de Testes
+### Test Types
 
-**Testes Unitários**
-- ✅ usePosts hook - gerenciamento de posts
-- ✅ useLikes hook - sistema de likes
-- ✅ Componentes isolados
+**Unit Tests**
+- ✅ usePosts hook - posts management
+- ✅ useLikes hook - likes system
+- ✅ Isolated components
 
-**Testes de Componentes**
-- ✅ SignupModal - validação e submit
-- ✅ CreatePost - formulário e validações
-- ✅ PostCard - renderização e interações
-- ✅ Modais - edit e delete
+**Component Tests**
+- ✅ SignupModal - validation and submit
+- ✅ CreatePost - form and validations
+- ✅ PostCard - rendering and interactions
+- ✅ Modals - edit and delete
 
-**Testes de Integração**
-- ✅ Fluxo completo de signup
-- ✅ Criar, editar e deletar posts
-- ✅ Sistema de likes funcionando
-- ✅ Busca e filtros
-- ✅ Persistência de dados
+**Integration Tests**
+- ✅ Complete signup flow
+- ✅ Create, edit, and delete posts
+- ✅ Working like system
+- ✅ Search and filters
+- ✅ Data persistence
 
-### Tecnologias de Teste
+### Testing Technologies
 
-- **Vitest** - Test runner rápido
-- **React Testing Library** - Testes centrados no usuário
-- **MSW (Mock Service Worker)** - Mock de API realista
-- **Testing Library User Event** - Simulação de interações
+- **Vitest** - Fast test runner
+- **React Testing Library** - User-centric testing
+- **MSW (Mock Service Worker)** - Realistic API mocking
+- **Testing Library User Event** - Interaction simulation
 
 ### Coverage
 
-O projeto mantém alta cobertura de testes em:
-- Componentes críticos (>85%)
-- Hooks personalizados (100%)
-- Fluxos principais da aplicação (>80%)
+The project maintains high test coverage:
+- Critical components (>85%)
+- Custom hooks (100%)
+- Main application flows (>80%)
 
-## 🚀 Deploy e CI/CD
+## 🚀 Deployment and CI/CD
 
-### Pipeline Automatizado (GitHub Actions)
+### Automated Pipeline (GitHub Actions)
 
-O projeto possui CI/CD configurado com GitHub Actions que executa automaticamente:
+The project has CI/CD configured with GitHub Actions that automatically runs:
 
-**Em cada Push/PR:**
-1. ✅ Instalação de dependências
-2. ✅ ESLint (verificação de código)
+**On every Push/PR:**
+1. ✅ Install dependencies
+2. ✅ ESLint (code verification)
 3. ✅ TypeScript build (type check)
-4. ✅ Testes com coverage
-5. ✅ Upload de coverage para Codecov
+4. ✅ Tests with coverage
+5. ✅ Upload coverage to Codecov
 
-**Em Push para Main:**
-6. 🚀 Deploy automático para Vercel
+**On Push to Main:**
+6. 🚀 Automatic deployment to Vercel
 
-### Configurar Secrets no GitHub
+### Configure Secrets on GitHub
 
-Para ativar o deploy automático, adicione as secrets no repositório:
+To enable automatic deployment, add the secrets to the repository:
 
 ```bash
-# No GitHub: Settings > Secrets and variables > Actions
+# On GitHub: Settings > Secrets and variables > Actions
 
-VERCEL_TOKEN          # Token da Vercel (vercel.com/account/tokens)
-VERCEL_ORG_ID         # ID da organização Vercel
-VERCEL_PROJECT_ID     # ID do projeto Vercel
+VERCEL_TOKEN          # Vercel token (vercel.com/account/tokens)
+VERCEL_ORG_ID         # Vercel organization ID
+VERCEL_PROJECT_ID     # Vercel project ID
 ```
 
-### Deploy Manual
+### Manual Deployment
 
-**Vercel** (Recomendado)
+**Vercel** (Recommended)
 ```bash
 npm install -g vercel
 vercel
 
-# Ou para produção
+# Or for production
 vercel --prod
 ```
 
 **Netlify**
 ```bash
 npm run build
-# Fazer upload da pasta dist/
+# Upload the dist/ folder
 ```
 
-**Outras Plataformas**
+**Other Platforms**
 - Build: `npm run build`
-- Pasta de saída: `dist/`
-- Comando de dev: `npm run dev`
+- Output folder: `dist/`
+- Dev command: `npm run dev`
 
-## 📧 Contato
+## 📧 Contact
 
-Em caso de dúvidas sobre o desafio:
+For questions about the challenge:
 **Email:** vini.garcia@codeleap.co.uk
 
 ---
 
-**Desenvolvido com ❤️ para o desafio CodeLeap**
+**Developed with ❤️ for the CodeLeap challenge**
 
 🤖 Generated with Claude Code

@@ -77,7 +77,6 @@ function MainApp() {
     }
   };
 
-  // Filter posts based on search term
   const filteredPosts = posts.filter((post) => {
     const searchLower = searchTerm.toLowerCase();
     return (
@@ -87,7 +86,6 @@ function MainApp() {
     );
   });
 
-  // Sort posts
   const sortedPosts = [...filteredPosts].sort((a, b) => {
     const dateA = new Date(a.created_datetime).getTime();
     const dateB = new Date(b.created_datetime).getTime();
